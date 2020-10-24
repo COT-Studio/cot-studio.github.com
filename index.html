@@ -3,45 +3,80 @@
 <head>
 <meta charset="utf-8">
 <style>
-  div {
+  #header {
     background-image: url(COT-logo.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     outline-style: solid;
-    background-color: #8c8c8c
+    background-color: #8c8c8c;
+    width:960px;
+    height:540px;
+  }
+  #nav {
+    float:left;
+    background-color:#222222;
+    color:#ffffff;
+    width:200px;
+    text-align:center;
+    padding:3px;
+    line-height:50px;
+    font-size:24px;
+  }
+  #navInner {
+    width:176px;
+    height:640px;
+    background-color:#eeeeee;
+    float:left;
+    line-height:40px;
+    font-size:20px;
+    padding:12px;
+  }
+  #section {
+    float:left;
+    width:640px;
+    height:640px;
+    padding:30px;
+    position:relative;
+    top:-50px;
+  }
+  a:link {
+    color:#000000;
+  }
+  a:visited {
+    text-decoration:none;
+    color:#000000;
+  }
+  a:hover {
+    color:#0000ff;
+  }
+  a:active {
+    color:#5555ff;
   }
 </style>
 <title>COT Studio的github主页</title>
 </head>
 <body>
-<div>
-<pre>
-
-
+<div id="header">
 
 <h1 style="text-align:center;color:#ffffff;font-size:32px">欢迎来到COT Studio的github主页！</h1>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</pre>
 </div>
-  <ul style="font-size:15px">
-    <li style="font-size:24px">简介</li>
+<br />
+<div id="nav">友情链接
+
+<div id="navInner">
+
+  <a href="https://github.com/COT-Studio/">github主页</a><br />
+
+  <a href="https://m.bilibili.com/video/BV1d54y117w3/">开发日记视频</a><br />
+
+</div>
+
+</div>
+
+<div id="section">
+<p style="font-size:26px">简介</p>
     <p>
     <b>“余切工作室”</b>(COT Studio)是一个由几名业余的学生程序员所创建的工作室。<br />
     主要制作一些python的项目
@@ -62,11 +97,9 @@
     </ul>
     </p>
   <hr />
-  <li style="font-size:24px">友情链接</li>
-    <button onclick="window.open('https://github.com/COT-Studio/')">工作室的github链接</button>
-    <a href="https://github.com/COT-Studio/">或者点击这里进入</a>
   </ul>
-<hr />
 <p style="font-size:12px">施工中......</p>
+</div>
+
 </body>
 </html>
