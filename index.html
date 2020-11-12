@@ -3,20 +3,21 @@
 <head>
 <meta charset="utf-8">
 <style>
+  body{margin:20px}
   #header {
     background-image: url(COT-logo.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     outline-style: solid;
-    background-color: #8c8c8c;
+    background-color: rgb(246,246,238);
     width:100%;
     height:540px;
   }
   #nav {
     float:left;
-    background-color:#dddddd;
-    color:#000000;
+    background-color:rgb(150,150,140);
+    color:#fff;
     width:200px;
     text-align:center;
     padding:5px;
@@ -25,32 +26,40 @@
   }
   #navInner {
     width:200px;
-    height:640px;
+    height:600px;
     background-color:#ffffff;
     float:left;
     line-height:40px;
-    font-size:20px;
+    font-size:18px;
+  }
+  div.delim {
+    width:200px;
+    height:60px;
+    background-color:rgb(150,150,140);
+    line-height:50px;
+    font-size:30px;
   }
   #section {
     float:left;
     width:70%;
-    height:640px;
+    height:600px;
     padding:30px;
     position:relative;
     top:-50px;
   }
   a:link,a:visited {
-    color:#000000;
+    color:#000;
     display:block;
     text-decoration:none;
-    background-color:#ffffff;
+    background-color:#fff;
   }
   a:hover {
-    background-color:#dddddd;
+    background-color:rgb(150,150,140);
+    color:#fff
   }
   a:active {
-    color:#ffffff;
-    background-color:#000000;
+    color:#fff;
+    background-color:#000;
   }
 </style>
 <title>COT Studio的github pages</title>
@@ -58,17 +67,20 @@
 <body>
 <div id="header">
 
-<h1 style="text-align:center;color:#ffffff;font-size:32px">欢迎来到COT Studio的github pages！</h1>
+<h1 style="text-align:center;color:#000000;font-size:32px;text-shadow:0px 0px 1px #fff">欢迎来到COT Studio的github pages！</h1>
 
 </div>
 <br />
-<div id="nav">友情链接
+<div id="nav">
 
 <div id="navInner">
+  <div class="delim">本站导航</div>
+     <a href="铅笔大冒险.zip">下载《铅笔大冒险》源码</a>
 
-  <a href="https://github.com/COT-Studio/">github主页</a>
-  <a href="https://m.bilibili.com/video/BV1d54y117w3/">开发日记视频</a>
-
+  <div class="delim">友情链接</div>
+     <a href="https://github.com/COT-Studio/">github主页</a>
+     <a href="https://m.bilibili.com/video/BV1d54y117w3/">开发日记视频</a>
+     <a href="https://jq.qq.com/?_wv=1027&k=qvicsaDk">加入官方qq群</a>
 </div>
 
 </div>
@@ -77,7 +89,7 @@
 <p style="font-size:26px">简介</p>
     <p>
     <b>“余切工作室”</b>(COT Studio)是一个由几名业余的学生程序员所创建的工作室。<br />
-    主要制作一些python的项目
+    主要制作一些python的项目。
     </p>
     <hr />
     <li style="font-size:24px">当前情况</li>
