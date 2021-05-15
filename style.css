@@ -102,6 +102,10 @@ body {
     background-color: rgb(160, 160, 160);
   }
 
-  li {
+  li.navInner {
     height: 30px;
+  }
+  
+  li.download {
+      height: 35px;
   }
